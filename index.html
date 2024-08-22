@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/9a5d25453c.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <header class="container m-auto pt-4 font-['manrope']">
+    <header class="container mx-auto pt-4 font-['manrope']">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
 
@@ -40,40 +40,67 @@
                     <li><a>Services</a></li>
                     <li><a>Portfolio</a></li>
                     <li><a>Blogs</a></li>
-                    <li><a>Contact Us</a></li>  
+                    <li><a>Contact Us</a></li>
                 </ul>
             </div>
             <div class="navbar-end  items-center">
-            <div class=" hidden md:flex items-center">
-                <a class="mr-3" href=""><span class="material-symbols-outlined">
-                        search
-                    </span></a>
+                <div class=" hidden md:flex items-center">
+                    <a class="mr-3" href=""><span class="material-symbols-outlined">
+                            search
+                        </span></a>
 
                     <a class="mr-4" href=""><span class="material-symbols-outlined">
-                        shopping_cart
-                    </span></a>
-                <a class="btn rounded-3xl bg-[#ABEF5F] text-black font-extrabold text-xl">
-                    Book Consult <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6 w-8 h-8 p-1 bg-[#000000] text-white rounded-3xl">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                    </svg></a>
+                            shopping_cart
+                        </span></a>
+                    <a class="btn rounded-3xl bg-[#ABEF5F] text-black font-extrabold text-xl">
+                        Book Consult <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor"
+                            class="size-6 w-8 h-8 p-1 bg-[#000000] text-white rounded-3xl">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg></a>
+                </div>
+
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+
+                </div>
             </div>
 
-                    <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
-                        </div>
-                    
-                    </div>
-            </div>
-            
 
 
         </div>
 
+        <div class="banner mt-12">
+            <img class="mx-auto mb-6" src="./assets/banner.png" alt="">
 
+            <h1 class="text-center font-extrabold text-2xl lg:text-6xl text-[#212121] mb-6">A barn house of this design has a
+                striking appearance</h1>
+
+            <h4 class="text-center font-medium text-xs lg:text-xl text-[#494949] mb-8">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered
+                wood, sleek
+                metal <br> accents, and large windows that flood the space with natural light.
+            </h4>
+
+            <div class="flex justify-center ml-4 mr-4">
+                <a class="btn text-center lg:w-auto w-full rounded-3xl bg-[#b6e283] text-black font-extrabold text-xl items-center justify-center">
+                    View Details
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6 w-8 h-8 p-1 bg-[#5ef840ee] text-white rounded-3xl ml-2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                    </svg>
+                </a>
+            </div>
+
+        </div>
     </header>
 
 
