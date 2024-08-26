@@ -152,9 +152,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mt-11 sm:mt-2">
-                        <img src="./assets/Rectangle.png" alt="">
-                    </div>
+                
+
                 </div>
             </div>
         </section>
@@ -370,12 +369,12 @@
                     </div>
 
 
-                    <div class="grid grid-cols-1 gap-4">
-                        <input type="text" placeholder="Write your message here"
-                            class="w-full  h-60 p-4 bg-white rounded-[32px] border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500" />
+                <div class="grid grid-cols-1 gap-4">
+                    <textarea placeholder="Write your message here"
+                        class="w-full h-60 p-4 bg-white rounded-[32px] border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500 placeholder-top-left"></textarea>
+                </div>
 
 
-                    </div>
                     <div class="flex justify-center ml-4 mr-4 mt-6">
                         <a
                             class="btn text-center w-full rounded-3xl bg-[#98e440] text-black font-extrabold text-xl items-center justify-center">
@@ -423,12 +422,25 @@
 
         </div>
 
-        <div class="justify-between items-center mx-auto">
-            <a href="">Home</a>
-            <a href="">Services</a>
-            <a href="">Portfolio</a>
-            <a href="">Blogs</a>
-            <a href="">Contact Us</a>
+        <div
+            class="flex flex-col sm:flex-row justify-center sm:justify-between items-center mx-auto sm:ml-[330px] sm:mr-[330px] font-normal text-[16px] text-[#E9e9e9]">
+            <a class="hover:font-medium mb-4 sm:mb-0" href="">Home</a>
+            <a class="hover:font-medium mb-4 sm:mb-0" href="">Services</a>
+            <a class="hover:font-medium mb-4 sm:mb-0" href="">Portfolio</a>
+            <a class="hover:font-medium mb-4 sm:mb-0" href="">Blogs</a>
+            <a class="hover:font-medium" href="">Contact Us</a>
+        </div>
+
+
+        <div class="flex justify-center ml-6 mr-6 pt-12 pb-24">
+            <a
+                class="btn text-center lg:w-auto w-full rounded-3xl bg-[#95ec31] text-black border-none font-extrabold text-xl items-center justify-center">
+                Book Consult
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                    class="size-6 w-8 h-8 p-1 bg-[#000000ee] text-white rounded-3xl ml-2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+            </a>
         </div>
     </footer>
 
